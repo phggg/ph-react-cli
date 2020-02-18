@@ -1,6 +1,6 @@
 {
   "name": "react-cli-ph",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个基于react的脚手架工具",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "bin": {
-    "ph-react-cli": "./bin/mycli.js"
+    "react-cli-ph": "/bin/mycli.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
