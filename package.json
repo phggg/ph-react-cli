@@ -1,5 +1,5 @@
 {
-  "name": "vue-ph-cli",
+  "name": "ph-react-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "phggg <18722050844@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phggg/ph-react-cli"
+  },
+  "license": "MIT",
   "bin": {
     "ph-react-cli": "./bin/mycli"
   },
