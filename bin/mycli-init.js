@@ -110,7 +110,7 @@ function go () {
     .then(context => {
       console.log(logSymbols.success, chalk.green('创建成功:)'))
       console.log()
-      console.log(chalk.green('cd ' + context.root + '\nnpm install\nnpm start'))
+      console.log(chalk.green('cd ' + context.root + '\nnpm install\nnpm build:dll\nnpm start'))
     }).catch(err => {
       console.error(err)
     })

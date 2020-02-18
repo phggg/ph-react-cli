@@ -1,6 +1,6 @@
 const program = require('commander');
 
-const { version } = require('../src/utils/constants');
+const { version } = require('../utils/constants');
 
 program.version(version, '-v, --version')
   .usage('<command> [项目名称]')
